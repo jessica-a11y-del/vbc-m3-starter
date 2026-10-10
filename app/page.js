@@ -204,7 +204,9 @@ export default function HomePage() {
               value={form.description}
               onChange={handleFieldChange}
             />
-            <span className="hint">{form.description.length}/500 characters</span>
+            <span className="hint">
+              {form.description.length}/500 characters (minimum 100)
+            </span>
           </div>
 
           <div className="field">
